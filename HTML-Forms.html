@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lesson 3: Assignments | HTML Forms
+    </title>
+</head>
+<body>
+  <h1>Coding Survey</h1>
+    
+    <form>
+      <div>
+        <label for="email">Email</label>  <input placeholder="Email Address" type="email">
+      </div>
+      <div>
+        <label for="age">Age</label> <input placeholder="Your Age" type="number" min="1" max="100">
+      </div>
+      <div>
+        <label for="date">Date</label> <input placeholder="Select Date" type="date" min="1923-01-01" max="2123-01-01">
+      </div>
+      <div>
+        <label for ="color">Favorite Color</label> <input placeholder ="Choose a color" type="color" value="#0000ff">
+      </div>
+      <div>
+      <label for="range">User Satifaction</label> <input placeholder="range" type="range" min="1" max="10">
+      </div>
+
+      <label for="language">Favorite Coding Language</label>
+      <select>
+        <option selected disabled>Choose one</option>
+        <option>Python</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>SQL</option>
+      </select>
+      <label for="beginner">Beginner</label><input name="experiance" type="radio" >
+      <label for="intermediate">Intermediate</label><input name="experiance" type="radio">
+      <label for="advanced">Advanced</label><input name="experiance" type="radio">
+       <div>
+         <div>
+          <label for="platform_type">Preferred Development Platform</label>
+         </div>
+         <label for="web">Web</label>
+         <input name="platform" type="checkbox">
+         <label for="mobile">Mobile</label>
+         <input name="platform" type="checkbox">
+         <label for="desktop">Desktop</label>
+         <input name="platform" type="checkbox">
+        </div>
+         <button>Submit</button>
+    </form>
+</body>
+</html>

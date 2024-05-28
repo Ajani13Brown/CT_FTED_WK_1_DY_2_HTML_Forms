@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+}
+
+form {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+form div{
+    padding: 15px;
+}
